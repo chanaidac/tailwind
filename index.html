@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tailwind Exercises</title>
+    <title>Tailwind Exercises Home</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 
@@ -18,10 +18,10 @@
         </svg>
         <ul class="flex gap-5 text-gray-600 hidden md:flex">
             <li>
-                <a class="hover:underline hover:text-black" href="#">Home</a>
+                <a class="hover:underline hover:text-black" href="index.html">Home</a>
             </li>
             <li>
-                <a class="hover:underline hover:text-black" href="#">Products</a>
+                <a class="hover:underline hover:text-black" href="product.html">Products</a>
             </li>
             <li>
                 <a class="hover:underline  hover:text-black" href="#">Contact</a>
@@ -33,10 +33,10 @@
     <section class="bg-green-100 p-4 flex justify-center">
         <div>
             <p class="mb-4">We offer you a wide range of Artificial and Natural Flowers</p>
-            <h2 class="font-bold text-3xl mb-5">Plans for your interior</h2>
+            <h2 class="font-bold text-3xl mb-5 md:text-4xl">Plans for your interior</h2>
             <div class="flex mb-5 mt gap-2">
-                <button class="bg-black rounded p-2 text-white">Shop Now</button>
-                <button class="border border-black rounded p-2">Watch Video</button>
+                <a class="bg-black rounded p-2 text-white" href="product.html">Shop Now</a>
+                <a class="border border-black rounded p-2" href="product.html">Watch Video</a>
             </div>
             <p>160+ Plant Species | 100+ Clients</p>
         </div>
@@ -118,6 +118,22 @@
                 <p class="text-yellow-400 font-bold">Chandru</p>
             </div>
         </div>
+    </section>
+
+    <!--News Letter-->
+    <section class="text-center">
+        <h1 class="text-3xl font-bold mt-5 text-center">Join our News Letter</h1>
+        <p>Signup for our email newspapper to get exclusive discounts, updates and more</p>
+        <input type="text" class="border border-black p-2 m-3 w-4/5">
+        <br>
+        <button class="bg-black text-white p-3 m-1 underline">Subscribe</button>
+    </section>
+
+    <!--Footer-->
+    <section class="bg-green-100 p-10 mt-4 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">Greenden</h1>
+        <p>The Standard chunk of Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero omnis repudiandae molestias iste, exercitationem iure itaque enim cupiditate illum maiores!</p>
+        <p>&copy; 2024 Greenday.com</p>
     </section>
 </body>
 
